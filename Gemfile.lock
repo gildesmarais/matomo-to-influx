@@ -1,0 +1,63 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.22.5)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    ast (2.4.0)
+    autometal-piwik (1.0.3)
+      activesupport (~> 3.0)
+      rest-client
+      xml-simple
+    chronic (0.10.2)
+    concurrent-ruby (1.1.5)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    influxdb (0.7.0)
+    jaro_winkler (1.5.2)
+    mime-types (3.2.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.0331)
+    multi_json (1.13.1)
+    netrc (0.11.0)
+    parallel (1.17.0)
+    parser (2.6.2.0)
+      ast (~> 2.4.0)
+    psych (3.1.0)
+    rainbow (3.0.0)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rubocop (0.66.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.5, != 2.5.1.1)
+      psych (>= 3.1.0)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 1.6)
+    ruby-progressbar (1.10.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    unicode-display_width (1.5.0)
+    whenever (0.10.0)
+      chronic (>= 0.6.3)
+    xml-simple (1.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  autometal-piwik
+  influxdb (~> 0.7.0)
+  rubocop (~> 0.66.0)
+  whenever (~> 0.10.0)
+
+BUNDLED WITH
+   2.0.1
