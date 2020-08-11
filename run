@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+docker build -t matomo-to-influx -f ./Dockerfile .
+docker run -d --env-file ./env --restart always matomo-to-influx
